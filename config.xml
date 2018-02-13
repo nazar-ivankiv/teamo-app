@@ -28,7 +28,6 @@
     <plugin name="cordova-plugin-dialogs" source="npm" spec="~1.2.1" />
     <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
 
-    <splash src="splash.png" />
     <platform name="ios">
         <icon src="res/icons/ios/icon-1024.png" width="1024" height="1024"/>
         <icon src="res/icons/ios/icon-small.png" width="29" height="29"/>
@@ -85,6 +84,7 @@
         -->
         </platform>
         <platform name="android">
+            <splash src="splash.png" />
         <icon density="ldpi" src="res/icons/android/ldpi.png"/>
         <icon density="mdpi" src="res/icons/android/mdpi.png"/>
         <icon density="hdpi" src="res/icons/android/hdpi.png"/>
