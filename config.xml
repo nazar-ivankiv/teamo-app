@@ -27,6 +27,10 @@
     <plugin name="cordova-plugin-dialogs" source="npm" spec="~1.2.1" />
     <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
 
+    <gap:config-file platform="android" parent="/manifest">
+        <application android:theme="@android:style/Theme.NoTitleBar"></application>
+    </gap:config-file>
+
     <platform name="ios">
         <icon src="res/icons/ios/icon-1024.png" width="1024" height="1024"/>
         <icon src="res/icons/ios/icon-small.png" width="29" height="29"/>
