@@ -19,7 +19,7 @@
         <variable name="SENDER_ID" value="242553844219" />
     </plugin>
 
-    <gap:plugin name="cordova-plugin-splashscreen" />
+    <plugin name="cordova-plugin-splashscreen" spec="~5.0.2" />
     <preference name="SplashScreen" value="splash" />
     <preference name="SplashScreenDelay" value="0" />
     <preference name="SplashShowOnlyFirstTime" value="true" />
